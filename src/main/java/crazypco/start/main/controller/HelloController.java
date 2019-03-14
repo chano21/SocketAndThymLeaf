@@ -1,4 +1,4 @@
-package crazypco.test.start;
+package crazypco.start.main.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,11 +11,12 @@ public class HelloController {
     @RequestMapping("/")
     @ResponseBody
     public String index() {
-        return "Greetings from Spring Boot!";
+        return "Greetings from ddddddddzzzzzzzzzff Bootㅅtttdd!";
     }
 
     @RequestMapping("/viewTest")
     public String viewTest(Model model){
+    	System.out.println("ㅎㅇㅎㅇdddd");
         model.addAttribute("message","Hello Spring Boot thymeleaf");
         return "index";
     }

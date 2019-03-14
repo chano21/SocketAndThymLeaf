@@ -8,6 +8,7 @@ public class BootThymleafProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BootThymleafProjectApplication.class, args);
+	
 	}
 
 }
