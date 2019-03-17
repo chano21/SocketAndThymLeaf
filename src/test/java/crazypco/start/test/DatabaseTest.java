@@ -1,4 +1,4 @@
-package crazypco.start.test;
+/*package crazypco.start.test;
 
 import static org.junit.Assert.assertThat;
 
@@ -22,7 +22,7 @@ public class DatabaseTest {
 
     @Test
     public void testCustomerRepository(){
-/*    	Customer customer = Customer.
+    	Customer customer = Customer.
     			
     	customerRepository.save(customer);
 
@@ -31,11 +31,11 @@ public class DatabaseTest {
         Customer chris = customerList.get(0);
         assertThat(chris.getName(), is("크리스"));
         assertThat(chris.getPhone(), is("010-1224-1225"));
-    */}
+    }
 
     @After
     public void deleteAll() {
         customerRepository.deleteAll();
     }
 
-}
+}*/
