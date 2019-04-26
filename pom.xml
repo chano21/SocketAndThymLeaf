@@ -50,6 +50,14 @@
     <scope>runtime</scope>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/net.sourceforge.htmlunit/htmlunit -->
+<!-- https://mvnrepository.com/artifact/net.sourceforge.htmlunit/htmlunit -->
+<dependency>
+    <groupId>net.sourceforge.htmlunit</groupId>
+    <artifactId>htmlunit</artifactId>
+    <version>2.27</version>
+</dependency>
+
 		<!-- auto reload -->
  	<!--  <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -64,6 +72,12 @@
        <scope>runtime</scope>
 </dependency>
  -->
+ <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+ <dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+</dependency>
+  
 <dependency>
         <groupId>org.projectlombok</groupId>
         <artifactId>lombok</artifactId>
@@ -74,6 +88,21 @@
     <artifactId>spring-boot-devtools</artifactId>
     <version>2.0.4.RELEASE</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+<dependency>
+    <groupId>org.jsoup</groupId>
+    <artifactId>jsoup</artifactId>
+    <version>1.8.3</version>
+</dependency>
+
+
+
+
 	<!-- 
 	<dependency>
       <groupId>org.springframework</groupId>
