@@ -45,7 +45,7 @@ public class SeleniumTest {
 		Thread.sleep(500);
 		 test=driver.findElement(By.id("xt_uniq_"+3)).getText();
 		
-		 System.out.println("테스트 : " + test);
+		 System.out.println("테스트dddd : " + test);
 		 
 		 String contents = (String)((JavascriptExecutor)driver).executeScript("return arguments[0].innerHTML;", test);
 		 
