@@ -29,7 +29,7 @@ public class HelloController {
     @RequestMapping("/")
     @ResponseBody
     public String index() {
-        return "Greetings from ddzzzzzzzzzff Bootㅅtttdd!";
+        return "Greetings from ddzzzzzzzzzff Bootㅅtttdd!d";
     }
 
     @RequestMapping(value = "/test", method = RequestMethod.POST)
